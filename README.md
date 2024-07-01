@@ -51,32 +51,12 @@ Here is an example of how to use the `videos-downloader` module to download vide
 ```javascript
 import s from 'videos-downloader';
 
-const downloadUrl = s.instagram('any reel url')
+const downloadUrl = s.instagram('any reel url');
+const downloadUrl = s.facebook('any facebook video url');
+const downloadUrl = s.twitter('any tweet containing video url');
+const downloadUrl = s.youtube('any youtube video url');
 ```
 
-### Facebook
-
-```javascript
-import s from 'videos-downloader';
-
-const downloadUrl = s.facebook('any reel url')
-```
-
-### Twitter
-
-```javascript
-import s from 'videos-downloader';
-
-const downloadUrl = s.twitter('any reel url')
-```
-
-### YouTube
-
-```javascript
-import s from 'videos-downloader';
-
-const downloadUrl = s.youtube('any reel url')
-```
 
 
 ## Contributing
