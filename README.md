@@ -45,7 +45,12 @@ npm install videos-downloader
 ## Usage
 
 Here is an example of how to use the `videos-downloader` module to download videos from different platforms:
+###.env
+```javascript
 
+INSTAGRAM_USERNAME=yours
+ INSTAGRAM_PASSWORD= yours
+```
 ### Instagram
 
 ```javascript
