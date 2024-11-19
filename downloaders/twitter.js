@@ -4,7 +4,7 @@ import axios from 'axios';
 
 
 export default async function twitter(tweetUrl) {
-    let url = tweetUrl.replace(/twitter\.com|x\.com/g, process.env.x_url);
+    let url = tweetUrl.replace(/twitter\.com|x\.com/g, 'api.vxtwitter.com');
     console.log('replacedUrl:', url)
 
 
