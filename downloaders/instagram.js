@@ -8,7 +8,7 @@ const INSTAGRAM_USERNAME = process.env.INSTAGRAM_USERNAME;
 const INSTAGRAM_PASSWORD = process.env.INSTAGRAM_PASSWORD;
 
 // File to store the cookies
-const COOKIES_FILE_PATH = process.env.COOKIES_FILE_PATH;
+const COOKIES_FILE_PATH = './instagram_cookies.json';
 
 // Function to login and get new cookies
 async function resetCookies(page) {
