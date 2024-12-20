@@ -8,7 +8,7 @@ async function test(params) {
         
         // console.log(await s.facebook('https://www.facebook.com/watch?v=1375506373158765'));
 
-        console.log(await s.instagram('https://www.instagram.com/developer_rahul_/p/DBLdV0sT04T/?img_index=1'));
+        console.log(await s.instagram('https://www.instagram.com/stories/developer_rahul_/'));
 
         // console.log(await s.twitter('https://x.com/whyrohitwhy/status/1856378155092803962'));
         
